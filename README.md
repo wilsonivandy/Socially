@@ -1,1 +1,1 @@
-# mern_socially
+# Socially
