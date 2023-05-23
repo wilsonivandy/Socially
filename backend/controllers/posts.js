@@ -1,7 +1,7 @@
 import Post from "../models/Post.js";
 import User from "../models/User.js";
 
-// CREATE
+// CREATE POSTS CONTROLLERS
 export const createPost = async (req, res) => {
     try {
         const { userId, description, picturePath } = req.body;
@@ -25,7 +25,7 @@ export const createPost = async (req, res) => {
     }
 }
 
-// READ
+// READ POSTS CONTROLLERS
 export const getFeedPosts = async (req, res) => {
     try {
         const allPosts = await Post.find();
