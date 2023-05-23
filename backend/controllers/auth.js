@@ -3,7 +3,7 @@ import jwt from "jsonwebtoken";
 import { trusted } from "mongoose";
 import User from "../models/User.js";
 
-// REGISTER USER
+// REGISTER USER CONTROLLERS
 export const register = async (req, res) => {
     try {
         const {
@@ -41,7 +41,7 @@ export const register = async (req, res) => {
     }
 };
 
-// LOGGING IN USER
+// LOGGING IN USER CONTROLLERS
 
 export const login = async (req, res) => {
     try {
