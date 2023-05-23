@@ -1,6 +1,6 @@
 import User from "../models/User.js";
 
-// READ
+// READ CONTROLLERS
 export const getUser = async (req, res) => {
     try {
          const {id} = req.params;
@@ -29,7 +29,7 @@ export const getUserFriends = async (req, res) => {
     }
 }
 
-// UPDATE
+// UPDATE CONTROLLERS
 
 export const addRemoveFriend = async (req, res) => {
     try {
